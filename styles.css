@@ -101,4 +101,5 @@ main {
 footer {
   height: 100px;
   background-color: rgb(184, 136, 77);
+  border-top: 2px solid black;
 }
