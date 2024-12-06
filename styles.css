@@ -50,6 +50,7 @@ body {
 main {
   flex: 1;
   padding: 20px;
+  overflow: auto;
 }
 
 .info-section {
@@ -63,13 +64,13 @@ main {
 }
 
 .info-section .info {
-  flex: 0 0 45%;
+  flex: 1 1 45%;
   font-size: 1rem;
   line-height: 1.6;
 }
 
 .info-section img {
-  flex: 0 0 45%;
+  flex: 1 1 45%;
   max-width: 100%;
   height: auto;
   border: 2px solid black;
