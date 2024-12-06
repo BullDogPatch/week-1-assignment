@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
 }
 
 body {
@@ -29,16 +29,18 @@ body {
 
 .links {
   display: flex;
-  padding: 5px;
   list-style: none;
+  padding: 5px;
 }
 
 .links li {
-  padding: 5px;
+  padding: 0 10px;
 }
 
 .links a {
   text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
 main {
@@ -48,17 +50,21 @@ main {
 
 .info-section {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap when necessary */
+  flex-wrap: wrap;
   justify-content: space-between;
-  /* align-items: flex-start; */
-  width: 80%;
   margin: auto;
   gap: 20px;
   text-align: justify;
 }
 
+.info-section .info {
+  flex: 0 0 45%;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 .info-section img {
-  flex: 0 0 45%; /* this is from chatGPT, not sure what it does yet */
+  flex: 0 0 45%;
   max-width: 100%;
   height: auto;
   border: 2px solid black;
