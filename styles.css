@@ -37,6 +37,10 @@ body {
   padding: 5px;
 }
 
+.links a {
+  text-decoration: none;
+}
+
 main {
   flex: 1;
   padding: 20px;
@@ -47,6 +51,10 @@ main {
   flex: 1;
   width: 80%;
   margin: auto;
+}
+
+.random-facts ul {
+  list-style: square;
 }
 
 footer {
