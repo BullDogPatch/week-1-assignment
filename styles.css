@@ -48,9 +48,13 @@ main {
 
 .info-section {
   display: flex;
-  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   margin: auto;
+  gap: 20px;
+  text-align: justify;
 }
 
 .random-facts ul {
