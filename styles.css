@@ -38,7 +38,12 @@ body {
 }
 
 .links li {
-  padding: 0 10px;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+
+.links li:hover {
+  background-color: rgb(199, 156, 104);
 }
 
 .links a {
