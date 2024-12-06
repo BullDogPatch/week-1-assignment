@@ -48,13 +48,21 @@ main {
 
 .info-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap; /* Allows items to wrap when necessary */
+  justify-content: space-between;
+  /* align-items: flex-start; */
   width: 80%;
   margin: auto;
   gap: 20px;
   text-align: justify;
+}
+
+.info-section img {
+  flex: 0 0 45%; /* this is from chatGPT, not sure what it does yet */
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .random-facts ul {
