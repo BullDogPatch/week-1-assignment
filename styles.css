@@ -6,3 +6,19 @@
   box-sizing: border-box;
   font-family: Poppins;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.links {
+  display: flex;
+  padding: 5px;
+  list-style: none;
+}
+
+.links li {
+  padding: 5px;
+}
