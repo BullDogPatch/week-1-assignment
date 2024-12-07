@@ -84,6 +84,7 @@ main {
 
 .random-facts {
   margin: 30px;
+  height: 60vh;
 }
 
 .random-facts ul {
