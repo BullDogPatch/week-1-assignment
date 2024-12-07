@@ -83,6 +83,17 @@ main {
   border-radius: 5px;
 }
 
+.image-container {
+  position: relative;
+}
+
+.image-container p {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: rgb(220, 207, 207);
+}
+
 .random-facts {
   margin-top: 100px;
   margin: 30px;
