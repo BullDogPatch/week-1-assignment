@@ -26,3 +26,8 @@ On a small screen:
 
 The items will shrink to fit the available space, and they’ll wrap onto the next line because of flex-wrap: wrap;.
 In summary, flex: 1 1 45% helps ensure the elements are flexible, and they adjust their size to fit the container while maintaining a good layout on both small and large screens.
+
+#Todo
+Create a back to the top button
+un-comment the js to let the sound play
+Finish reflection (put what resources)
