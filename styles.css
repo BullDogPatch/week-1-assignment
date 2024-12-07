@@ -65,7 +65,7 @@ main {
   margin: auto;
   gap: 20px;
   text-align: justify;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   height: 80vh;
 }
 
@@ -76,16 +76,17 @@ main {
 }
 
 .info-section img {
-  flex: 1 1 45%;
+  flex: 1 0 45%;
   max-width: 100%;
-  height: auto;
+  height: 70%;
   border: 2px solid black;
   border-radius: 5px;
 }
 
 .random-facts {
+  margin-top: 100px;
   margin: 30px;
-  height: 80vh;
+  height: 70vh;
 }
 
 .random-facts ul {
