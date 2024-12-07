@@ -62,36 +62,43 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: auto;
   gap: 20px;
   text-align: justify;
   margin-bottom: 100px;
-  height: 80vh;
 }
 
 .info-section .info {
-  flex: 1 1 45%;
+  flex: 1 1 45%; /* Takes 45% of the width with flexibility */
+  min-width: 300px;
   font-size: 1rem;
   line-height: 1.6;
 }
 
+.info-section .image-container {
+  flex: 1 1 45%; /* Ensures equal space with the text section */
+  min-width: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .info-section img {
-  flex: 1 0 45%;
-  max-width: 100%;
-  height: 70%;
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
   border: 2px solid black;
   border-radius: 5px;
 }
 
-.image-container {
-  position: relative;
-}
-
 .image-container p {
   position: absolute;
-  left: 5px;
   top: 10px;
+  left: 10px;
   color: rgb(220, 207, 207);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.9rem;
 }
 
 .random-facts {
