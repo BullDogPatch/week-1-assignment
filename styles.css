@@ -33,12 +33,14 @@ body {
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 5px;
 }
 
 .links li {
-  padding: 0 15px;
+  padding: 5px 15px;
+  /* padding: 0 15px; */
   border-radius: 10px;
 }
 
