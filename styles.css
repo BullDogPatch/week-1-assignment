@@ -120,7 +120,11 @@ main {
 }
 
 footer {
+  padding: 0 40px;
   height: 100px;
   background-color: rgb(184, 136, 77);
   border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
